@@ -28,7 +28,7 @@ public class CircularLL {
             t=t.next;
             size++;
         }
-        if(size==0) System.out.println("No Node is available.");
+        if(size==0) System.out.println("No Node is available in the Circular Linked List.");
         else{
             t=head;
             while(t.next!=head){
